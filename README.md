@@ -42,9 +42,9 @@ The dataset consists of 20 features in the following categories:
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/age_cltv.png"/ width=900 height=600>
 
-**Business Metric:** The highest average Customer Lifetime Value (CLTV) is observed among customers aged 51-60, followed by 18-30 and 61-70, while the lowest is in the 31-40 age bracket.
+**Observation:** The highest average Customer Lifetime Value (CLTV) is observed among customers aged 51-60, followed by 18-30 and 61-70, while the lowest is in the 31-40 age bracket.
 
-**Quantified Observation:** A noticeable drop in average CLTV occurs in the 31-40 age group, potentially due to peak financial responsibilities, followed by a gradual increase in older age groups as financial stability improves.
+**Insight:** A noticeable drop in average CLTV occurs in the 31-40 age group, potentially due to peak financial responsibilities, followed by a gradual increase in older age groups as financial stability improves.
 
 **Recommendation:** Optimize marketing strategies by targeting customers in early adulthood (18-30) and those over 50, as these groups yield the highest CLTV. Simultaneously, adopt broad-reaching campaigns to maintain engagement across all age ranges due to comparable average CLTVs.
 
@@ -52,9 +52,9 @@ The dataset consists of 20 features in the following categories:
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/season_purch.png"/ width=900 height=600>
 
-**Business Metric:** Fall has the highest purchase amounts across its distribution, followed by Winter, Spring, and Summer, indicating a seasonal trend in consumer spending.
+**Observation:** Fall has the highest purchase amounts across its distribution, followed by Winter, Spring, and Summer, indicating a seasonal trend in consumer spending.
 
-**Quantified Observation:** Higher purchase amounts in Fall and Winter align with the seasonal demand for more expensive items like coats and sweaters, compared to lighter clothing in Spring and Summer.
+**Insight:** Higher purchase amounts in Fall and Winter align with the seasonal demand for more expensive items like coats and sweaters, compared to lighter clothing in Spring and Summer.
 
 **Recommendation:** Focus on releasing higher-priced products during Fall and Winter, when customers are less price-sensitive. Pair these product launches with strategic marketing and advertising campaigns to maximize profits during these high-spending periods.
 
@@ -62,9 +62,9 @@ The dataset consists of 20 features in the following categories:
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/purch_gender.png"/ width=900 height=600>
 
-  **Business Metric:** Males tend to make more repeat purchases, with a higher concentration in the 20-50 purchase range, while females have more observations in the 0-19 purchase range.
+**Observation:** Males tend to make more repeat purchases, with a higher concentration in the 20-50 purchase range, while females have more observations in the 0-19 purchase range.
 
-**Quantified Observation:** Male shoppers demonstrate stronger brand loyalty, while female shoppers are more likely to explore new brands or stores.
+**Insight:** Male shoppers demonstrate stronger brand loyalty, while female shoppers are more likely to explore new brands or stores.
 
 **Recommendation:**
 
@@ -75,9 +75,9 @@ The dataset consists of 20 features in the following categories:
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/rating_CLTV.png"/ width=900 height=600>
 
-**Business Metric:** The number of previous purchases is positively correlated with CLTV, as expected, but review ratings show no significant correlation with either variable.
+**Observation:** The number of previous purchases is positively correlated with CLTV, as expected, but review ratings show no significant correlation with either variable.
 
-**Quantified Observation:** A correlation coefficient of ≈-0.0096 indicates an extremely weak relationship between review ratings and spending behavior, suggesting review ratings are not effective predictors of CLTV or repeat purchases.
+**Insight:** A correlation coefficient of ≈-0.0096 indicates an extremely weak relationship between review ratings and spending behavior, suggesting review ratings are not effective predictors of CLTV or repeat purchases.
 
 **Recommendation:**
 
@@ -88,9 +88,9 @@ The dataset consists of 20 features in the following categories:
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/502f2b9a4d98a20e3d6ad02b40c06d58a578c6ef/images/CLTV_discount.png"/ width=900 height=600>
 
-**Metrics and Observations:** 
-- Discounts show an extremely weak positive correlation (≈0.00315) with CLTV, indicating minimal impact on customer value.
-- A 2:3 class imbalance exists between purchases with and without discounts, with both groups exhibiting similarly low CLTV values, suggesting discounts are ineffective for influencing purchases among low-value customers and redundant for high-value customers.
+**Observation:** Discounts show an extremely weak positive correlation (≈0.00315) with CLTV, indicating minimal impact on customer value.
+
+**Insight:** A 2:3 class imbalance exists between purchases with and without discounts, with both groups exhibiting similarly low CLTV values, suggesting discounts are ineffective for influencing purchases among low-value customers and redundant for high-value customers.
 
 **Recommendation:**
 
