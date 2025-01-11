@@ -50,7 +50,7 @@ The dataset consists of 20 features in the following categories:
 
 ### Season and Purchase Amounts
 <p align = "center">
-  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/season_purch.png"/ width=900 height=600>
+  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/f311f5cbb8a5e56a90bd7597036b797f6a84e95d/images/season_purch.png"/ width=900 height=600>
 
 **Observation:** Fall has the highest purchase amounts across its distribution, followed by Winter, Spring, and Summer, indicating a seasonal trend in consumer spending.
 
