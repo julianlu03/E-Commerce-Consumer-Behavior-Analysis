@@ -38,7 +38,7 @@ The dataset consists of 20 features in the following categories:
 **Review ratings** revealed that customer satisfaction is not a good indicator of measuring shopping habits
 
 # Visualizations and Recommendations
-## Age Groups and CLTV
+### Age Groups and CLTV
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/age_cltv.png"/ width=900 height=600>
 
@@ -48,7 +48,7 @@ The dataset consists of 20 features in the following categories:
 
 **Recommendation:** Optimize marketing strategies by targeting customers in early adulthood (18-30) and those over 50, as these groups yield the highest CLTV. Simultaneously, adopt broad-reaching campaigns to maintain engagement across all age ranges due to comparable average CLTVs.
 
-## Season and Purchase Amounts
+### Season and Purchase Amounts
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/season_purch.png"/ width=900 height=600>
 
@@ -58,7 +58,7 @@ The dataset consists of 20 features in the following categories:
 
 **Recommendation:** Focus on releasing higher-priced products during Fall and Winter, when customers are less price-sensitive. Pair these product launches with strategic marketing and advertising campaigns to maximize profits during these high-spending periods.
 
-## Gender and Number of Previous Purchases
+### Gender and Number of Previous Purchases
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/purch_gender.png"/ width=900 height=600>
 
@@ -71,7 +71,7 @@ The dataset consists of 20 features in the following categories:
 - **For Males:** Introduce loyalty programs or subscriptions tailored to encourage repeat purchases and enhance long-term engagement
 - **For Females:** Focus on targeted discounts, sales, and promotions to incentivize retention and attract new customers who are less brand-attached
 
-## Review Ratings and CLTV
+### Review Ratings and CLTV
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/rating_CLTV.png"/ width=900 height=600>
 
@@ -84,7 +84,7 @@ The dataset consists of 20 features in the following categories:
 - Avoid over-reliance on review ratings as an indicator of customer profitability or purchasing frequency
 - Instead, focus on variables such as purchasing trends and CLTV for better insights into maximizing profitability and customer value
   
-## Discounts and CLTV
+### Discounts and CLTV
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/502f2b9a4d98a20e3d6ad02b40c06d58a578c6ef/images/CLTV_discount.png"/ width=900 height=600>
 
