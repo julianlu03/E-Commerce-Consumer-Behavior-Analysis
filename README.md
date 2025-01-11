@@ -1,2 +1,2 @@
 # E-Commerce-Consumer-Behavior-Analysis
-Consumer Behavior and Shopping Habits: E-Commerce Trends Exploratory Data Analysis Project
+Consumer Behavior and Shopping Habits Exploratory Data Analysis Project
