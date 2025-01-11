@@ -2,6 +2,8 @@
 This project explores a comprehensive dataset detailing consumer behavior and shopping habits, focusing on key variables such as demographics, purchasing patterns, and customer lifetime value (CLTV). 
 The project aims help businesses focus on traits that drive the highest customer value and refine approaches to customer retention and acquisition.
 
+Kaggle dataset found [here](https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset) 
+
 This project focuses on improving business strategies in the following areas:
 
 - **CLTV drivers**
@@ -11,29 +13,29 @@ This project focuses on improving business strategies in the following areas:
 
 # Data Structure
 
-There are **10,000 instances** in the dataset, with 19 features.
+There are **3,900 instances** in the dataset
 
-**claim_made** is the binary target feature in the dataset; 0 means no claim was filed and 1 means a claim was filed.
+There is a focus on **CLTV (Customer Lifetime Value)** as the primary metric used to evaluate customer profitability and long-term engagement
 
-The target feature has a skewed distribution in the data, with negative claims making up 68.7% of total claims. This is addressed via oversampling during the project, which fixes the class inbalance when training the model. 
+The dataset consists of 20 features in the following categories:
 
-Other than claim_made, the dataset consists of 18 features in the following categories:
+**Demographic Information:** Age, gender, location, etc.
 
-**Demographic Information:** Age, gender, education, etc.
+**Purchase Details:** purchase amount, shipping type, etc.
 
-**Vehicle Specifications:** Ownership, vehicle year, annual mileage, etc.
-
-**Driving Record:** History of duis, speeding violations, past accidents
+**Engagement Metrics:** CLTV, discount usage, subscription, etc.
 
 # Executive Summary
 
 ### Overview of Findings:
 
-Driving experience consistently proved to be the best indicator of whether a claim is filed, with vehicle year being a strong second. Our Gradient Boost Classifier model achieved an accuracy of 85.6%, generalizing well with unseen data and can be used for increasing efficiency in the insurance application process. The model can also be used to improve pricing strategies by more accurately determining how risky a potential policyholder will be and adjusting insurance premiums accordingly. Overall, the model will be useful for improving the company's loss ratio and risk assessment for current and potential policyholders.
+**Age** proved to be the most important contributing factor to **CLTV**, with ages **51-60** having noticeably higher CLTV compared to those in the age range of 31-40 and 41-50. 
 
-PowerBI dashboard can be found [here](https://app.powerbi.com/groups/me/reports/4cfc561a-77f1-4c41-b08f-1100f948a388/ed711182fcaa385c89ec?experience=power-bi) or viewed below:
+**Male** customers may benefit more from loyalty programs or subscriptions, whereas **females** may benefit more from discounts and sales.
 
-![Alt text](https://github.com/julianlu03/Car-Insurance-Claims-Classifier/blob/main/car_insurance_dashboard.PNG?raw=true)
+**Discounts** seem to have no effect on engagement metrics, indicating a need for improvement in its implementation. 
+
+**Review ratings** revealed that customer satisfaction is not a good indicator of measuring shopping habits
 
 # Recommendations:
 
