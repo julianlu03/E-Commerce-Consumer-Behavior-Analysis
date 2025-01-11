@@ -37,29 +37,68 @@ The dataset consists of 20 features in the following categories:
 
 **Review ratings** revealed that customer satisfaction is not a good indicator of measuring shopping habits
 
-# Visualizations and Insights
+# Visualizations and Recommendations
+## Age Groups and CLTV
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/age_cltv.png"/ width=900 height=600>
-  
+
+**Business Metric:** The highest average Customer Lifetime Value (CLTV) is observed among customers aged 51-60, followed by 18-30 and 61-70, while the lowest is in the 31-40 age bracket.
+
+**Quantified Observation:** A noticeable drop in average CLTV occurs in the 31-40 age group, potentially due to peak financial responsibilities, followed by a gradual increase in older age groups as financial stability improves.
+
+**Recommendation:** Optimize marketing strategies by targeting customers in early adulthood (18-30) and those over 50, as these groups yield the highest CLTV. Simultaneously, adopt broad-reaching campaigns to maintain engagement across all age ranges due to comparable average CLTVs.
+
+## Season and Purchase Amounts
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/season_purch.png"/ width=900 height=600>
 
+**Business Metric:** Fall has the highest purchase amounts across its distribution, followed by Winter, Spring, and Summer, indicating a seasonal trend in consumer spending.
+
+**Quantified Observation:** Higher purchase amounts in Fall and Winter align with the seasonal demand for more expensive items like coats and sweaters, compared to lighter clothing in Spring and Summer.
+
+**Recommendation:** Focus on releasing higher-priced products during Fall and Winter, when customers are less price-sensitive. Pair these product launches with strategic marketing and advertising campaigns to maximize profits during these high-spending periods.
+
+## Gender and Number of Previous Purchases
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/purch_gender.png"/ width=900 height=600>
 
+  **Business Metric:** Males tend to make more repeat purchases, with a higher concentration in the 20-50 purchase range, while females have more observations in the 0-19 purchase range.
+
+**Quantified Observation:** Male shoppers demonstrate stronger brand loyalty, while female shoppers are more likely to explore new brands or stores.
+
+**Recommendation:**
+
+- **For Males:** Introduce loyalty programs or subscriptions tailored to encourage repeat purchases and enhance long-term engagement
+- **For Females:** Focus on targeted discounts, sales, and promotions to incentivize retention and attract new customers who are less brand-attached
+
+## Review Ratings and CLTV
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/rating_CLTV.png"/ width=900 height=600>
 
+**Business Metric:** The number of previous purchases is positively correlated with CLTV, as expected, but review ratings show no significant correlation with either variable.
+
+**Quantified Observation:** A correlation coefficient of ≈-0.0096 indicates an extremely weak relationship between review ratings and spending behavior, suggesting review ratings are not effective predictors of CLTV or repeat purchases.
+
+**Recommendation:**
+
+- Avoid over-reliance on review ratings as an indicator of customer profitability or purchasing frequency
+- Instead, focus on variables such as purchasing trends and CLTV for better insights into maximizing profitability and customer value
+  
+## Discounts and CLTV
 <p align = "center">
   <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/502f2b9a4d98a20e3d6ad02b40c06d58a578c6ef/images/CLTV_discount.png"/ width=900 height=600>
 
-# Recommendations:
+**Metrics and Observations:** 
+- Discounts show an extremely weak positive correlation (≈0.00315) with CLTV, indicating minimal impact on customer value.
+- A 2:3 class imbalance exists between purchases with and without discounts, with both groups exhibiting similarly low CLTV values, suggesting discounts are ineffective for influencing purchases among low-value customers and redundant for high-value customers.
 
-Based on the insights uncovered during analysis and the results of our model, the following recommendations have been provided:
-- Work with the marketing team to tailor advertisements and lower rates towards potential customers with more driving experience and newer vehicles. This will increase customer rentention through lower rates and benefit the company with low risk policyholders
-- Consider offering varied rates for driving safety (assessed via telematics) targetted at policyholders with lower driving experience
-  - This does two things:
-    - Rewards safer drivers with lower premiums, benefiting both the driver and the company by retaining low risk policyholders
-    - Leverages overconfidence (cognitive bias) in less safe drivers, allowing the company to justify higher premiums for those with lower driving experience, ultimately reducing the risk of taking on these high-risk clients
-- Work with underwriters to implement the model for the purposes of automating the screening process
-  - Implementing this model can automatically screen out high-risk candidates before they reach an underwriter, which not only enhances productivity but also reduces labor costs for the company by streamlining the workflow
+**Recommendation:**
+
+- Revise discount strategies to target low CLTV customers, encouraging increased spending
+- Avoid offering discounts to high CLTV customers, as their purchasing behavior is unaffected, reducing unnecessary revenue loss
+- Explore other factors like discount depth and brand perception to optimize promotional effectiveness
+
+
+
+
+
