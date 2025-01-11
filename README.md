@@ -37,6 +37,22 @@ The dataset consists of 20 features in the following categories:
 
 **Review ratings** revealed that customer satisfaction is not a good indicator of measuring shopping habits
 
+# Visualizations and Insights
+<p align = "center">
+  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/age_cltv.png"/ width=900 height=600>
+  
+<p align = "center">
+  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/season_purch.png"/ width=900 height=600>
+
+<p align = "center">
+  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/85e66291c95a1974d62d78ab18ecffd369873794/images/purch_gender.png"/ width=900 height=600>
+
+<p align = "center">
+  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/8587c5e8bd181be8d8b0bf46980e36198f07e25f/images/rating_CLTV.png"/ width=900 height=600>
+
+<p align = "center">
+  <img src="https://github.com/julianlu03/E-Commerce-Consumer-Behavior-Analysis/blob/502f2b9a4d98a20e3d6ad02b40c06d58a578c6ef/images/CLTV_discount.png"/ width=900 height=600>
+
 # Recommendations:
 
 Based on the insights uncovered during analysis and the results of our model, the following recommendations have been provided:
